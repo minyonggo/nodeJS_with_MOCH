@@ -1,0 +1,26 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "Learning Express with Moch & Traversy",
+  "main": "init.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node init.js"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "MignonWeb",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
